@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HappyPlaces" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.HappyPlaces" parent="Base.Theme.HappyPlaces" />
+    <style name="CustomNoActionBarTheme" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomToolBar">
+    <item name="android:textColorPrimary">#ffffff</item>
+    <item name="android:colorControlNormal">#ffffff</item>
+    </style>
+
+<!--    android:textColorPrimary:
+
+This attribute sets the text color for the primary content in the toolbar. In this case, it's set to #ffffff, which is a hexadecimal color code representing white. So, the text in the toolbar will be white.
+android:colorControlNormal:
+
+This attribute sets the color for various controls in their normal state. In the context of a toolbar, it might affect the color of icons or other controls when they are in their default, unpressed state. Here, it's also set to #ffffff, making these controls white.-->
+
+</resources>
